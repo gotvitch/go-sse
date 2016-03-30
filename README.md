@@ -1,4 +1,5 @@
 # go-sse
+[![Build Status](https://travis-ci.org/gotvitch/go-sse.svg)](https://travis-ci.org/gotvitch/go-sse) [![GoDoc](https://godoc.org/github.com/gotvitch/go-sse?status.svg)](https://godoc.org/github.com/gotvitch/go-sse)
 go-sse is a [Go](http://golang.org/) library that provides a simple way to handle SSE connections in a http handler.
 
 ## Features
