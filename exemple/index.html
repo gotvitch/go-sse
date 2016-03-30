@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var source = new EventSource("sse");
+			source.addEventListener('time', function(event) {
+			  document.getElementById("time").innerHTML = event.data;
+			}, false);
+		</script>
+		<div id="time">
+		</div>
+	</body>
+</html>
